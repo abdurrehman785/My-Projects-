@@ -1,0 +1,93 @@
+html {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffb6c1; /* Use colon, not equal sign */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center; /* Corrected spelling and used colon */
+    color: red; /* Use colon, not equal sign */
+    padding: 50px 0;
+	font-size:2.0em;
+}
+
+h1 {
+    text-align: center;
+	font-size: 2.5em;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+section #uni {
+    background-color: white;
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+section#uni ul {
+    list-style-type: square; /* Change bullet style (e.g., square, circle, none) */
+    padding-left: 20px; /* Add space between bullet and text */
+    font-size: 1.2em; /* Increase font size */
+    line-height: 1.6; /* Adjust line spacing */
+    color: #333; /* Set text color */
+}
+
+/*section#bni ul li {
+    margin-bottom: 10px; /* Add space between list items */
+/*}*/
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    max-width: 300px; /* Set maximum width for the list */
+    font-family: Arial, sans-serif; /* Set font */
+}
+
+li {
+    background-color: #f9f9f9; /* Light background for list items */
+    border: 1px solid #ccc; /* Border for each list item */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 10px; /* Space between items */
+    padding: 10px; /* Padding inside each item */
+    display: flex; /* Use flexbox to align items */
+    justify-content: space-between; /* Space out text and button */
+    align-items: center; /* Align items vertically */
+    color: #ff6699; /* Shade of pink for the text */
+    font-size: 16px; /* Adjust font size for better readability */
+}
+
+button {
+    background-color: #ff4d4d; /* Red background */
+    color: lightpink; /* White text color */
+    border: none; /* Remove border */
+    padding: 8px 12px; /* Padding inside button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    font-size: 14px; /* Button text size */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+button:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}
+
+button:focus {
+    outline: none; /* Remove default focus outline */
+}
+
+footer {
+    text-decoration: underline;
+	text-align: center;
+	
+}
+
