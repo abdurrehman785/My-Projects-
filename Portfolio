@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="gptportfolio.css">
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
 </head>
 <body>
     <header>
@@ -40,3 +40,105 @@
 </body>
 </html>
 
+/************************CSS FILE************************************/
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+section#bio {
+    background-color: white;
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+section#bio h2 {
+    font-size: 2em;
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+section#bio p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+section#bio p br {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2em;
+    margin: 40px 0 20px;
+    color: #0073e6;
+}
+
+.project {
+    background-color: #f4f4f4;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    border: 2px solid #0073e6;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #0073e6;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
