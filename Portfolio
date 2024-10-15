@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="gptportfolio.css">
+</head>
+<body>
+    <header>
+        <h1>Abdur Rehman</h1>
+        <p>Web Developer | Student | Tech Enthusiast</p>
+    </header>
+
+    <section id="bio">
+        <h2>About Me</h2>
+        <p>
+            Hi, I'm Abdur Rehman, a passionate Computer Engineering student at Ghulam Ishaq Institute of Engineering Sciences and Technology. My journey into the world of technology has led me to discover a newfound love for web development, where I find the perfect blend of creativity and technical skill.
+            <br><br>
+            Web development isn't just a field for me—it's a canvas where I bring ideas to life, combining aesthetics with functionality. As I continue to grow and learn, I strive to push the boundaries of what I can create, aiming to develop websites that are not only visually appealing but also intuitive and user-friendly.
+            <br><br>
+            In addition to my technical pursuits, I am constantly exploring new ways to innovate and stay ahead in the ever-evolving world of web development. Whether it's front-end design or back-end development, I am dedicated to crafting high-quality digital experiences that leave a lasting impact.
+        </p>
+    </section>
+
+    <section>
+        <h2>My Work</h2>
+        <div class="project" id="project1">
+            <a href="https://github.com/abdurrehman785/My-Projects-" target="_blank">My GitHub Projects</a>
+        </div>
+        <div class="project" id="project2">Project 2</div>
+        <div class="project" id="project3">Project 3</div>
+    </section>
+
+    <footer>
+        <p>Contact me at u2023054@giki.edu.pk</p>
+        <a href="https://www.instagram.com/_abdurrehman07/">Instagram</a>
+        <a href="https://www.linkedin.com/in/abdur-rehman-21b776285/">LinkedIn</a>
+    </footer>
+</body>
+</html>
 
